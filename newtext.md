@@ -9,6 +9,8 @@ here I'm referencing [this title](section-label-1). Try a reference [](section-l
 
 ```{tip}
 text as tips use 
+~/.local/bin/ 
 to build ~/.local/bin/jupyter-book build mybook
 to create  ~/.local/bin/jupyter-book create mybook
+git token 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
 ```
