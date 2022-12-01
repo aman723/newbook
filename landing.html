@@ -418,8 +418,8 @@ title="Print to PDF"
     <nav id="bd-toc-nav" aria-label="Page">
         <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#how-improv-works">
-   How improv works
+  <a class="reference internal nav-link" href="#how-does-improv-works">
+   How does improv works
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
@@ -454,8 +454,8 @@ title="Print to PDF"
                         <nav aria-label="Page">
                             <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#how-improv-works">
-   How improv works
+  <a class="reference internal nav-link" href="#how-does-improv-works">
+   How does improv works
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
@@ -487,8 +487,8 @@ title="Print to PDF"
 <p><img alt="" src="https://dibs-web01.vm.duke.edu/pearson/assets/videos/zebrafish/improvGif.gif" /></p>
 <p>This video shows raw 2-photon calcium imaging data in zebrafish, with cells detected in real time by <a class="reference external" href="https://github.com/flatironinstitute/CaImAn">CaImAn</a>, and directional tuning curves (shown as colored neurons) and functional connectivity (lines) estimated online, during a live experiment. Here only a few minutes of data have been acquired, and neurons are colored by their strongest response to visual simuli shown so far.
 We also provide up-to-the-moment estimates of the functional connectivity by fitting linear-nonlinear-Poisson models online, as each new piece of data is acquired. Simple visualizations offer real-time insights, allowing for adaptive experiments that change in response to the current state of the brain.</p>
-<section id="how-improv-works">
-<h2>How improv works<a class="headerlink" href="#how-improv-works" title="Permalink to this headline">#</a></h2>
+<section id="how-does-improv-works">
+<h2>How does improv works<a class="headerlink" href="#how-does-improv-works" title="Permalink to this headline">#</a></h2>
 <img src="https://github.com/project-improv/improv/raw/main/figures/improv_design.png" width=80%>
 <br />
 improv allows users to flexibly specify and manage adaptive experiments to integrate data collection, preprocessing, visualization, and user-defined analytics. All kinds of behavioral, neural, or modeling data can be incorporated, and input and output data streams are managed independently and asynchronously. With this design, streaming analyses and real-time interventions can be easily integrated into various experimental setups. improv manages the backend engineering of data flow and task execution for all steps in an experimental pipeline in real time, without requiring user oversight. Users need only define their particular processing pipeline with simple text files and are free to define their own streaming analyses via Python classes, allowing for rapid prototyping of adaptive experiments.  
