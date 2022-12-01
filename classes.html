@@ -6,7 +6,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
-    <title>Content with notebooks &#8212; Improv</title>
+    <title>OnACID &#8212; Improv</title>
     
   <!-- Loaded before other Sphinx assets -->
   <link href="_static/styles/theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
@@ -50,12 +50,10 @@ const thebe_selector_input = "pre"
 const thebe_selector_output = ".output, .cell_output"
 </script>
     <script async="async" src="_static/sphinx-thebe.js"></script>
-    <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
-    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Notebooks with MyST Markdown" href="markdown-notebooks.html" />
-    <link rel="prev" title="Installation guide" href="markdown.html" />
+    <link rel="next" title="Table of Contents" href="home.html" />
+    <link rel="prev" title="Master Server" href="design.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
     
@@ -127,12 +125,114 @@ const thebe_selector_output = ".output, .cell_output"
   </a>
  </li>
  <li class="toctree-l1">
-  <a class="reference internal" href="markdown.html">
-   Installation guide
+  <a class="reference internal" href="Analysis%3A-Julia.html">
+   Calling Julia functions from Python
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="Modules%3A-Asynchronous.html">
+   Initialization
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="Building-your-own-actor-system.html">
+   Introduction
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="Modules%3A-Configuration-and-Architecture.html">
+   Overview
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="Data-Store%3A-Offline.html">
+   Parameters
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="Installation-for-Windows.html">
+   improv in Windows Subsystem for Linux
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="interfaces.html">
+   Flexible pipeline for neural experimentation
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="design.html">
+   <span class="xref myst">
+    Master Server
+   </span>
   </a>
  </li>
  <li class="toctree-l1 current active">
   <a class="current reference internal" href="#">
+   OnACID
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="home.html">
+   Table of Contents
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="Process-Raw-Frames.html">
+   Pipeline for online processing using CaImAn
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="Docker.html">
+   Requirements
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="store.html">
+   Data Store
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="Building-and-Packaging.html">
+   With pip:
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="Data-Acquistion.html">
+   From HDF5
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="Pytest-Testing.html">
+   Overview
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="Installation.html">
+   Prerequisites
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="Stimulation.html">
+   Using ScanImage
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="Data-Store%3A-Online.html">
+   Data Store
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="Minimal-working-example.html">
+   Introduction
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="markdown.html">
+   Installation guide
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="notebooks.html">
    Content with notebooks
   </a>
  </li>
@@ -192,35 +292,6 @@ title="Toggle navigation"
         
     </div>
     <div class="header-article__right">
-<div class="menu-dropdown menu-dropdown-launch-buttons">
-  <button class="headerbtn menu-dropdown__trigger"
-      aria-label="Launch interactive content">
-      <i class="fas fa-rocket"></i>
-  </button>
-  <div class="menu-dropdown__content">
-    <ul>
-      <li>
-        <a href="https://mybinder.org/v2/gh/executablebooks/jupyter-book/master?urlpath=tree/docs/notebooks.ipynb"
-   class="headerbtn"
-   data-toggle="tooltip"
-data-placement="left"
-title="Launch on Binder"
->
-  
-
-<span class="headerbtn__icon-container">
-  
-    <img src="_static/images/logo_binder.svg">
-  </span>
-<span class="headerbtn__text-container">Binder</span>
-</a>
-
-      </li>
-      
-    </ul>
-  </div>
-</div>
-
 <button onclick="toggleFullScreen()"
   class="headerbtn"
   data-toggle="tooltip"
@@ -260,7 +331,7 @@ title="Source repository"
       </li>
       
       <li>
-        <a href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2Fnotebooks.html&body=Your%20issue%20content%20here."
+        <a href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2Fclasses.html&body=Your%20issue%20content%20here."
    class="headerbtn"
    data-toggle="tooltip"
 data-placement="left"
@@ -288,7 +359,7 @@ title="Open an issue"
   <div class="menu-dropdown__content">
     <ul>
       <li>
-        <a href="_sources/notebooks.ipynb"
+        <a href="_sources/classes.md"
    class="headerbtn"
    data-toggle="tooltip"
 data-placement="left"
@@ -299,7 +370,7 @@ title="Download source file"
 <span class="headerbtn__icon-container">
   <i class="fas fa-file"></i>
   </span>
-<span class="headerbtn__text-container">.ipynb</span>
+<span class="headerbtn__text-container">.md</span>
 </a>
 
       </li>
@@ -347,20 +418,56 @@ title="Print to PDF"
     </div>
     <nav id="bd-toc-nav" aria-label="Page">
         <ul class="visible nav section-nav flex-column">
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#markdown-notebooks">
-   Markdown + notebooks
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#">
+   OnACID
   </a>
+  <ul class="visible nav section-nav flex-column">
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#attributes">
+     Attributes
+    </a>
+   </li>
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#methods">
+     Methods
+    </a>
+   </li>
+  </ul>
  </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#myst-markdown">
-   MyST markdown
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#ringbuffer">
+   RingBuffer
   </a>
+  <ul class="visible nav section-nav flex-column">
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#id1">
+     Attributes
+    </a>
+   </li>
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#id2">
+     Methods
+    </a>
+   </li>
+  </ul>
  </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#code-blocks-and-outputs">
-   Code blocks and outputs
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#cnmfparams">
+   CNMFParams
   </a>
+  <ul class="visible nav section-nav flex-column">
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#id3">
+     Attributes
+    </a>
+   </li>
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#id4">
+     Methods
+    </a>
+   </li>
+  </ul>
  </li>
 </ul>
 
@@ -371,7 +478,7 @@ title="Print to PDF"
         <div class="col pl-md-3 pl-lg-5 content-container">
             <!-- Table of contents that is only displayed when printing the page -->
             <div id="jb-print-docs-body" class="onlyprint">
-                <h1>Content with notebooks</h1>
+                <h1>OnACID</h1>
                 <!-- Table of contents -->
                 <div id="print-main-content">
                     <div id="jb-print-toc">
@@ -381,20 +488,56 @@ title="Print to PDF"
                         </div>
                         <nav aria-label="Page">
                             <ul class="visible nav section-nav flex-column">
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#markdown-notebooks">
-   Markdown + notebooks
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#">
+   OnACID
   </a>
+  <ul class="visible nav section-nav flex-column">
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#attributes">
+     Attributes
+    </a>
+   </li>
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#methods">
+     Methods
+    </a>
+   </li>
+  </ul>
  </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#myst-markdown">
-   MyST markdown
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#ringbuffer">
+   RingBuffer
   </a>
+  <ul class="visible nav section-nav flex-column">
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#id1">
+     Attributes
+    </a>
+   </li>
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#id2">
+     Methods
+    </a>
+   </li>
+  </ul>
  </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#code-blocks-and-outputs">
-   Code blocks and outputs
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#cnmfparams">
+   CNMFParams
   </a>
+  <ul class="visible nav section-nav flex-column">
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#id3">
+     Attributes
+    </a>
+   </li>
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#id4">
+     Methods
+    </a>
+   </li>
+  </ul>
  </li>
 </ul>
 
@@ -406,83 +549,111 @@ title="Print to PDF"
                 
               <div>
                 
-  <section class="tex2jax_ignore mathjax_ignore" id="content-with-notebooks">
-<h1>Content with notebooks<a class="headerlink" href="#content-with-notebooks" title="Permalink to this headline">#</a></h1>
-<p>You can also create content with Jupyter Notebooks. This means that you can include
-code blocks and their outputs in your book.</p>
-<section id="markdown-notebooks">
-<h2>Markdown + notebooks<a class="headerlink" href="#markdown-notebooks" title="Permalink to this headline">#</a></h2>
-<p>As it is markdown, you can embed images, HTML, etc into your posts!</p>
-<p><img alt="" src="https://myst-parser.readthedocs.io/en/latest/_static/logo-wide.svg" /></p>
-<p>You can also <span class="math notranslate nohighlight">\(add_{math}\)</span> and</p>
-<div class="math notranslate nohighlight">
-\[
-math^{blocks}
-\]</div>
-<p>or</p>
-<div class="math notranslate nohighlight">
-\[\begin{split}
-\begin{aligned}
-\mbox{mean} la_{tex} \\ \\
-math blocks
-\end{aligned}
-\end{split}\]</div>
-<p>But make sure you $Escape $your $dollar signs $you want to keep!</p>
+  <section id="onacid">
+<h1>OnACID<a class="headerlink" href="#onacid" title="Permalink to this headline">#</a></h1>
+<section id="attributes">
+<h2>Attributes<a class="headerlink" href="#attributes" title="Permalink to this headline">#</a></h2>
+<ul class="simple">
+<li><p>params: CNMFParams</p></li>
+<li><p>estimates: Estimates</p></li>
+<li><p>N: int from columns in estimates.A, # of imaged sources</p></li>
+<li><p>M: int from params and self.N, # of total components (background + imaged)</p></li>
+<li><p>dims: (int,int) dimensions of FOV in pixels</p></li>
+<li><p>ind_A: index matrix of Ab stacked matrix; separate from estimates</p></li>
+<li><p>update_counter: array counter for updating shapes, for each component</p></li>
+<li><p>time_neuron_added: array of ‘when’ component are added</p></li>
+<li><p>time_spend: cumulative time spent running</p></li>
+<li><p>loaded_model: keras model from json; optional</p></li>
+<li><p>Ab_dense_copy: from estimates.Ab_dense. Unused.</p></li>
+<li><p>Ab_copy: from local variable Ab_ (copied from estimates.Ab), then copied back into estimates.Ab after shape updating</p></li>
+<li><p>Ab_epoch: copies of estimates.Ab for each epoch</p></li>
+<li><p>bnd_Y: percentiles of loaded data; used if show movie.</p></li>
+<li><p>bnd_AC: same for A.C</p></li>
+<li><p>bnd_BG: same for b.f. Unused.</p></li>
+<li><p>img_min: min of loaded data</p></li>
+<li><p>img_norm: norm of loaded data, std+median</p></li>
+<li><p>t: counter during online fitting; used if show movie and in create_frame method (problematic)</p></li>
+<li><p>t_shapes: list of times for shape updating</p></li>
+<li><p>t_detect: list of times</p></li>
+<li><p>t_motion: list of times</p></li>
+<li><p>comp_upd: list of updated components, used to count updating shapes during fit_next</p></li>
+<li><p>captions: list of captions in show movie. Unused.</p></li>
+<li><p>dview: Unused.</p></li>
+</ul>
+<p>Below from update_num_components: Potentially problematic.</p>
+<ul class="simple">
+<li><p>rhos_buf: RingBuffer, after update, from estimates.rho_buf. Unused.</p></li>
+<li><p>ind_new_all: Unused.</p></li>
+<li><p>cnn_pos:  Unused.</p></li>
+</ul>
 </section>
-<section id="myst-markdown">
-<h2>MyST markdown<a class="headerlink" href="#myst-markdown" title="Permalink to this headline">#</a></h2>
-<p>MyST markdown works in Jupyter Notebooks as well. For more information about MyST markdown, check
-out <a class="reference external" href="https://jupyterbook.org/content/myst.html">the MyST guide in Jupyter Book</a>,
-or see <a class="reference external" href="https://myst-parser.readthedocs.io/en/latest/">the MyST markdown documentation</a>.</p>
+<section id="methods">
+<h2>Methods<a class="headerlink" href="#methods" title="Permalink to this headline">#</a></h2>
+<ul class="simple">
+<li><p>fit_next: fits the next frame, updates the object</p></li>
+<li><p>initialize_online: initialize using small portion of the dataset</p></li>
+<li><p>fit_online: take files and fit in real-time</p></li>
+<li><p>create_frame: currently only used for showing movie, has implicit assumptions</p></li>
+<li><p>_prepare_object: prepares the online object given some estimates</p></li>
+<li><p>save: save object in hdf5 (h5) format</p></li>
+</ul>
+<p>Other methods in online_cnmf:</p>
+<ul class="simple">
+<li><p>bare_initialization: bypass cnmf to quickly init OnACID (default)</p></li>
+<li><p>seeded_initialization: init OnACID from user specified binary masks</p></li>
+<li><p>HALS4shape: reshape A</p></li>
+<li><p>HALS4activity: get C using block-coordinate descent</p></li>
+<li><p>demix_and_deconvolve: get C using OASIS within b-c descent</p></li>
+<li><p>init_shapes_and_sufficient_stats: estimate shapes on initial batch</p></li>
+<li><p>update_shapes: updates shapes</p></li>
+<li><p>update_num_components: check for new components in residual buffer, adds if needed</p></li>
+<li><p>get_candidate_components: extract new candidate components and test them</p></li>
+<li><p>remove_components_online: remove indexed components</p></li>
+<li><p>initialize_movie_online: init movie using cnmf</p></li>
+<li><p>load_OnlineCNMF: load object from save (hdf5)</p></li>
+<li><p>csc_append: appends second csc_matrix to the right of the first one</p></li>
+<li><p>corr: fast correlation</p></li>
+<li><p>rank1nmf: fast rank 1 NMF</p></li>
+</ul>
 </section>
-<section id="code-blocks-and-outputs">
-<h2>Code blocks and outputs<a class="headerlink" href="#code-blocks-and-outputs" title="Permalink to this headline">#</a></h2>
-<p>Jupyter Book will also embed your code blocks and output in your book.
-For example, here’s some sample Matplotlib code:</p>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">matplotlib</span> <span class="kn">import</span> <span class="n">rcParams</span><span class="p">,</span> <span class="n">cycler</span>
-<span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
-<span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
-<span class="n">plt</span><span class="o">.</span><span class="n">ion</span><span class="p">()</span>
-</pre></div>
-</div>
-</div>
-<div class="cell_output docutils container">
-<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>&lt;matplotlib.pyplot._IonContext at 0x7f70a43772e0&gt;
-</pre></div>
-</div>
-</div>
-</div>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Fixing random state for reproducibility</span>
-<span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">seed</span><span class="p">(</span><span class="mi">19680801</span><span class="p">)</span>
-
-<span class="n">N</span> <span class="o">=</span> <span class="mi">10</span>
-<span class="n">data</span> <span class="o">=</span> <span class="p">[</span><span class="n">np</span><span class="o">.</span><span class="n">logspace</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">100</span><span class="p">)</span> <span class="o">+</span> <span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">randn</span><span class="p">(</span><span class="mi">100</span><span class="p">)</span> <span class="o">+</span> <span class="n">ii</span> <span class="k">for</span> <span class="n">ii</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">N</span><span class="p">)]</span>
-<span class="n">data</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">(</span><span class="n">data</span><span class="p">)</span><span class="o">.</span><span class="n">T</span>
-<span class="n">cmap</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">cm</span><span class="o">.</span><span class="n">coolwarm</span>
-<span class="n">rcParams</span><span class="p">[</span><span class="s1">&#39;axes.prop_cycle&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">cycler</span><span class="p">(</span><span class="n">color</span><span class="o">=</span><span class="n">cmap</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">linspace</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="n">N</span><span class="p">)))</span>
-
-
-<span class="kn">from</span> <span class="nn">matplotlib.lines</span> <span class="kn">import</span> <span class="n">Line2D</span>
-<span class="n">custom_lines</span> <span class="o">=</span> <span class="p">[</span><span class="n">Line2D</span><span class="p">([</span><span class="mi">0</span><span class="p">],</span> <span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="n">color</span><span class="o">=</span><span class="n">cmap</span><span class="p">(</span><span class="mf">0.</span><span class="p">),</span> <span class="n">lw</span><span class="o">=</span><span class="mi">4</span><span class="p">),</span>
-                <span class="n">Line2D</span><span class="p">([</span><span class="mi">0</span><span class="p">],</span> <span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="n">color</span><span class="o">=</span><span class="n">cmap</span><span class="p">(</span><span class="mf">.5</span><span class="p">),</span> <span class="n">lw</span><span class="o">=</span><span class="mi">4</span><span class="p">),</span>
-                <span class="n">Line2D</span><span class="p">([</span><span class="mi">0</span><span class="p">],</span> <span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="n">color</span><span class="o">=</span><span class="n">cmap</span><span class="p">(</span><span class="mf">1.</span><span class="p">),</span> <span class="n">lw</span><span class="o">=</span><span class="mi">4</span><span class="p">)]</span>
-
-<span class="n">fig</span><span class="p">,</span> <span class="n">ax</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">subplots</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span> <span class="mi">5</span><span class="p">))</span>
-<span class="n">lines</span> <span class="o">=</span> <span class="n">ax</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">data</span><span class="p">)</span>
-<span class="n">ax</span><span class="o">.</span><span class="n">legend</span><span class="p">(</span><span class="n">custom_lines</span><span class="p">,</span> <span class="p">[</span><span class="s1">&#39;Cold&#39;</span><span class="p">,</span> <span class="s1">&#39;Medium&#39;</span><span class="p">,</span> <span class="s1">&#39;Hot&#39;</span><span class="p">]);</span>
-</pre></div>
-</div>
-</div>
-<div class="cell_output docutils container">
-<img alt="_images/notebooks_2_0.png" src="_images/notebooks_2_0.png" />
-</div>
-</div>
-<p>There is a lot more that you can do with outputs (such as including interactive outputs)
-with your book. For more information about this, see <a class="reference external" href="https://jupyterbook.org">the Jupyter Book documentation</a></p>
+</section>
+<section id="ringbuffer">
+<h1>RingBuffer<a class="headerlink" href="#ringbuffer" title="Permalink to this headline">#</a></h1>
+<p>Implements ring buffer efficiently, inherits from np.ndarray</p>
+<section id="id1">
+<h2>Attributes<a class="headerlink" href="#id1" title="Permalink to this headline">#</a></h2>
+<ul class="simple">
+<li><p>max_, cur</p></li>
+</ul>
+</section>
+<section id="id2">
+<h2>Methods<a class="headerlink" href="#id2" title="Permalink to this headline">#</a></h2>
+<ul class="simple">
+<li><p>append, get_ordered, get_first, get_last_frames</p></li>
+</ul>
+</section>
+</section>
+<section id="cnmfparams">
+<h1>CNMFParams<a class="headerlink" href="#cnmfparams" title="Permalink to this headline">#</a></h1>
+<p>Class for setting processing parameters, grouped. Dictionary implementation</p>
+<section id="id3">
+<h2>Attributes<a class="headerlink" href="#id3" title="Permalink to this headline">#</a></h2>
+<ul class="simple">
+<li><p>Primary dicts: data, patch, preprocess, init, spatial, temporal, merging, quality, online, motion
+Should all have default values for each specified key.</p></li>
+</ul>
+</section>
+<section id="id4">
+<h2>Methods<a class="headerlink" href="#id4" title="Permalink to this headline">#</a></h2>
+<ul class="simple">
+<li><p>set: add key-value pairs to a given dict (group)</p></li>
+<li><p>get: gets value from group.key</p></li>
+<li><p>get_group: gets full dict of given group</p></li>
+<li><p>change_params: given dict, set all new values</p></li>
+<li><p>to_dict: convert all dicts to single large dict</p></li>
+<li><p><em>eq</em>: define comparison for dicts
+(dict_compare method defined in .utilities)</p></li>
+</ul>
 </section>
 </section>
 
@@ -513,17 +684,17 @@ with your book. For more information about this, see <a class="reference externa
                 
     <!-- Previous / next buttons -->
 <div class='prev-next-area'>
-    <a class='left-prev' id="prev-link" href="markdown.html" title="previous page">
+    <a class='left-prev' id="prev-link" href="design.html" title="previous page">
         <i class="fas fa-angle-left"></i>
         <div class="prev-next-info">
             <p class="prev-next-subtitle">previous</p>
-            <p class="prev-next-title">Installation guide</p>
+            <p class="prev-next-title"><span class="xref myst">Master Server</span></p>
         </div>
     </a>
-    <a class='right-next' id="next-link" href="markdown-notebooks.html" title="next page">
+    <a class='right-next' id="next-link" href="home.html" title="next page">
     <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Notebooks with MyST Markdown</p>
+        <p class="prev-next-title">Table of Contents</p>
     </div>
     <i class="fas fa-angle-right"></i>
     </a>
